@@ -1,0 +1,120 @@
+.clearfix:after {
+	content: " ";
+	display: block;  
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+body {
+	background-color: #4c4f56;
+}
+
+.thumbview {
+	height: 220px;
+	width: 190px;
+	background-color: rgba(0, 0, 0, .2);
+	position: relative;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 7px;
+	box-shadow: 0 1px  0 rgba(255, 255, 255, .2),
+				inset 1px 1px 1px rgba(0, 0, 0, .3),
+				inset -1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+h2 {
+	font-size: 12px;
+	margin: 0 0 10px 4px;
+}
+
+h3 {
+	margin: 10px 0 0 4px;
+}
+
+h4 {
+	font-family: sans-serif;
+	color: #8c8c8c;
+	margin: 6px 0 0 4px;
+}
+
+h2, h3 {
+	font-family: sans-serif;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+h3, h4 {
+	font-size: 11px;
+}
+
+.min {
+	width: 12px;
+	height: 4px;
+	background-color: #b2df45;
+	border-radius: 2px;
+	border: 1px solid black;
+	box-shadow: 0 0 10px #b2df45;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+}
+
+img {
+	width: 187px;
+	height: 158px;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 1px 1px 3px black;
+}
+
+.selection {
+	width: 84px;
+	height: 20px;
+/*	position: absolute;
+	right: 12px;
+	bottom: 15px;*/
+	float: right;
+	margin-top: 12px;
+}
+
+.option {
+	background-color: #4c4f56;
+	background: -webkit-linear-gradient(top, #55585f, #4c4f56);
+	   background: -moz-linear-gradient(top, #55585f, #4c4f56);
+	    background: -ms-linear-gradient(top, #55585f, #4c4f56);
+	     background: -o-linear-gradient(top, #55585f, #4c4f56);
+ 		    background: linear-gradient(top, #55585f, #4c4f56);
+	border: 1px solid black;
+	box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .2);
+	width: 24px;
+	height: 20px;
+	float: left;
+	margin: 0 auto;
+}
+
+.selection .option:first-child {
+	width: 28px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-right: none;
+}
+
+.selection .option:last-child {
+	width: 28px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-left: none;
+}
+
+.selected, .option:hover {
+	background-color: #2590d8;
+	background: -webkit-linear-gradient(top, #33a3f1, #1075b4);
+	   background: -moz-linear-gradient(top, #33a3f1, #1075b4);
+	    background: -ms-linear-gradient(top, #33a3f1, #1075b4);
+	     background: -o-linear-gradient(top, #33a3f1, #1075b4);
+ 		    background: linear-gradient(top, #33a3f1, #1075b4);
+}
+
+
